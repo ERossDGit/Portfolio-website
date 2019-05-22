@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ross Dudley's Portfolio</title>
+    <link rel="shortcut icon" href="http://wikipedia.com/static/favicon/wikipedia.ico">
+    <link href="https://fonts.googleapis.com/css?family=Karma:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css"
+  </head>
+  <body>
+    <header class="page-header">
+      <!-- Add my logo -->
+      <img src="img/RDesigns_logo.png" alt="Logo for my web development consulting services." class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact_body">
+      <h1>Contact</h1>
+      <div>
+        2160 Fox Hound Pkwy<br>
+        Marietta, GA  30062<br>
+        <br>
+        phone: <a href="tel:+6786440173" aria-label="phone number" class="contact_info">(678) 644-0173</a><br>
+        email: <a href="mailto:ross@simpleinsight.net" class="contact_info">ross@simpleinsight.net</a><br>
+        skype: <a href="skype:live:e_r_dudley" class="contact_info">live:e_r_dudley</a><br>
+        <br>
+        <a href="mailto:ross@simpleinsight.net" class="contact_info">Contact me</a>
+      </div>
+      <br>
+      <br>
+      <p>Let me know how I can help.  Provide contact information below along with a brief message.</p>
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">E-mail:    </label>
+        <input type="email" id="contact-email" required>
+
+        <label class="standard-label" for="contact-phone">Telephone: </label>
+        <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+        <label class="standard-label" for="contact_message">Message: </label>
+        <textarea maxlength="240" id="contact_message" required></textarea>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media"
+        <!-- Github logo -->
+        <a href="https://github.com/" target="_blank">
+          <img src="img/github_icon.svg" alt="github">
+        </a>
+        <!-- Twitter logo -->
+        <a href="https://twitter.com/" target="_blank">
+          <img src="img/twitter_icon.svg" alt="twitter">
+        </a>
+        <!-- LinkedIn logo -->
+        <a href="https://www.linkedin.com/in/ross-dudley-a51a182" target="_blank">
+          <img src="img/linkedin_icon.svg" alt="linkedin">
+        </a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
