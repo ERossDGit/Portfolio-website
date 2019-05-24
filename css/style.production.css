@@ -61,12 +61,21 @@ a:active {
   color: #ff0;
 }
 
-.th_left_justify {
-  text-align: left;
+th,
+td {
+  text-align: center;
+  padding: 15px;
 }
 
-.td_center {
-  text-align: center;
+table {
+  border-spacing: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 button {
