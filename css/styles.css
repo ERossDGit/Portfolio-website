@@ -73,6 +73,14 @@ a:active {
   color: var(--active-link-color);
 }
 
+.th_left_justify {
+  text-align: left;
+}
+
+.td_center {
+  text-align: center;
+}
+
 button,
 input[type="submit"],
 .button {

@@ -61,6 +61,14 @@ a:active {
   color: #ff0;
 }
 
+.th_left_justify {
+  text-align: left;
+}
+
+.td_center {
+  text-align: center;
+}
+
 button {
   /* overwrites browser defaults and resets the border */
   border: none;
