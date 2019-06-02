@@ -215,19 +215,16 @@ input[type="submit"]:focus {
 .profile {
   max-width: 700px;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .about_me {
   max-width: 700px;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .contact_body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .page-header {
@@ -419,8 +416,4 @@ input[type="submit"]:focus {
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
   animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-.work_main-content {
-  padding: 10px;
 }
