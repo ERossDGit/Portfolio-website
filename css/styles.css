@@ -200,6 +200,7 @@ input[type="submit"]:focus {
 
 .navigation-list {
   list-style-type: none;
+  padding: 10px;
 }
 
 .navigation-list li {
