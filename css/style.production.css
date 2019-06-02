@@ -239,6 +239,7 @@ input[type="submit"]:focus {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 200px;
   flex: 0 1 200px;
+  height: 100%;
 }
 
 .page-header__item:last-child {
