@@ -424,3 +424,7 @@ input[type="submit"]:focus {
 .work_main-content {
   padding: 10px;
 }
+
+.social-media-item {
+  text-decoration: none;
+}
